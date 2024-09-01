@@ -1,0 +1,18 @@
+.favorite {
+    padding-top: 130px;
+    padding-bottom: 110px;
+}
+.h1_favorite {
+    font-size: 30px;
+    font-weight: 700;
+    /* position: fixed;
+    margin-left: 500px;
+    z-index: 999; */
+    filter: drop-shadow(1px 1px 1px blue);
+}
+.favorite_leal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin-top: 30px;
+}

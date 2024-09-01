@@ -1,0 +1,31 @@
+
+.catalog_owerflow{
+    margin-top: 118px;
+    position: fixed;
+    z-index: 99;
+    left: 70px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    overflow-y: scroll;
+    /* scrollbar-width: none; */
+    width: 300px;
+    height: 600px;
+    background: white;
+}
+.catalog_owerflow a:hover{
+    color: blue;
+}
+.catalog_h1 {
+    font-size: 30px;
+    font-weight: 700;
+    position: fixed;
+    background: white;
+    top: 110px;
+    z-index: 999;
+}

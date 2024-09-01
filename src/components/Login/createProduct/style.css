@@ -1,0 +1,57 @@
+.createProduct {
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+.create_product_books {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.inputCreateProduct {
+  font-size: 20px;
+  width: 459px;
+  padding: 5px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+}
+.inputCreateProduct::placeholder {
+  color: blue;
+}
+.name_price input {
+  font-size: 20px;
+  width: 214px;
+  padding: 5px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+}
+.name_price {
+  display: flex;
+  gap: 30px;
+}
+.input_add {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  font-size: 20px;
+  width: 180px;
+  padding: 5px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+  margin-top: 20px;
+}
+.btn button:hover {
+  background: rgba(0, 72, 255, 0.055);
+}

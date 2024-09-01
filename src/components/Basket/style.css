@@ -1,0 +1,74 @@
+.basket {
+  padding-top: 114px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 90px;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20px;
+  width: 950px;
+  padding-bottom: 20px;
+}
+.telebasket {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  margin-left: 1050px;
+}
+.telebasket h3 {
+  font-size: 19px;
+  padding-top: 22px;
+  color: purple;
+  cursor: pointer;
+}
+.telebash1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: gray;
+}
+.telebash2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.basGlob {
+  margin-top: 24px;
+  padding-left: 17px;
+}
+.basGlob h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.basGlob h2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.608);
+  margin-top: 5px;
+}
+.telebasbtn {
+  margin-top: 25px;
+}
+.telebasbtn button {
+  width: 360px;
+  height: 50px;
+  background: rgb(140, 0, 255);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.telebasbtn button:hover{
+  background: rgba(140, 0, 255, 0.642);
+  transition: 0.2s;
+}

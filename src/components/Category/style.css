@@ -1,0 +1,12 @@
+.category {
+  padding-top: 120px;
+}
+.category_end {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.751);
+}

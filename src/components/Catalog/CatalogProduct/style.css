@@ -1,0 +1,11 @@
+.catalogProduct {
+  padding-top: 140px;
+  margin-left: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.catalogProduct h1 {
+  font-size: 30px;
+  cursor: pointer;
+}
